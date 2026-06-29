@@ -1,0 +1,21 @@
+# taking input from the user 
+a=input("enter your name :")
+print("my name is ",a)
+# if we enter the value it will consider as a string bcz its written in double cods so to change it we should convert using int() function
+x=input("enter first number:")
+y=input("enter second number:")
+print(int(x)+int(y))
+print(int(x)-int(y))
+print(int(x)%int(y))
+print(int(x)*int(y))
+print(int(x)/int(y))
+print(int(x)//int(y))
+print(int(x)**int(y))
+
+# print(x+y)
+# print(x-y)
+# print(x%y)
+# print(x*y)
+# print(x**y)
+# print(x//y)
+# print(x/y)

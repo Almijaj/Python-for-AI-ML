@@ -59,3 +59,6 @@ print(str6.swapcase())
 # title() it capitalize each letter of the word the string 
 str6="he is dan,he is good person"
 print(str6.title())
+# checks wheater there are number and returns true
+str="hilo9088"
+print(str.isdigit())

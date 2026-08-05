@@ -19,4 +19,16 @@ for k in range(20):
 
 for k in range(1,12,2):
     print(k)
-# while loop
+# for loop with else
+for i in range (5):
+    print(i)
+else:                      #the statements in the else block will be executed after all iteration are completed 
+    print("sorry no i")
+
+#for loop withe else (with condition)
+for i in range(6):
+    print(i)
+    if i==4:
+        break
+else:
+        print("sorry no i")

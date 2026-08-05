@@ -18,4 +18,21 @@ while(count>0):
  count=count-1 
 else:
  print("i am inside else ")
-#  else with while loop
+
+# while loop with else
+i=0
+while i<7:
+ print(i)
+ i=i+1
+ if i==4:  #basically this doesnot print the else statement
+  break
+
+else:
+   print("sorry no i")
+
+# example
+for x in range(5):
+ print("iteration no{} in for loop".format(x+1))
+else:
+ print("else block in loop")
+print("out of loop")
